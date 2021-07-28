@@ -13,7 +13,7 @@ namespace LUISToolWebAPI.Controllers
     [Route("api/LuisAppService")]
     public class LuisAppServiceController : Controller
     {
-        protected const string SubscriptionKey = "dad31d9e643a4d8a874ab54f7826e405";
+        protected const string SubscriptionKey = "";
         protected const Regions Region = Regions.WestUS;
         protected const string appVersion = "0.1";
         protected static string appId;
